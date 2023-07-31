@@ -2,6 +2,7 @@
 
 
 void FunctionalityN1();
+void FunctionThatWeDontNeed();
 
 int main()
 {
@@ -15,4 +16,9 @@ int main()
 void FunctionalityN1()
 {
     std::cout << "New feature number 1\n";
+}
+
+void FunctionThatWeDontNeed()
+{
+    std::cout << "This function is just for restoring to previous branc\n";
 }
