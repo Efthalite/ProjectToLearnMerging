@@ -1,4 +1,5 @@
 #include <iostream>
+#include "MathLib.h"
 
 
 void FunctionalityN1();
@@ -12,6 +13,8 @@ int main()
     FunctionalityN1();
     Drive();
     RipAndTear();
+
+    std::cout << "5 x 6 = " << multiply(5, 6) << "\n";
 
     std::cin.get();
     return 0;

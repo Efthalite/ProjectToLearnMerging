@@ -1,6 +1,6 @@
 
 
-app : src/main.cpp
+app : src/main.cpp src/MathLib.cpp
 	g++ $^ -o build/$@
 
 
