@@ -1,6 +1,6 @@
 #include <iostream>
 #include "MathLib.h"
-
+#include "GreenVision/GV.hpp"
 
 void FunctionalityN1();
 void Drive();
@@ -15,6 +15,7 @@ int main()
     RipAndTear();
 
     std::cout << "5 x 6 = " << multiply(5, 6) << "\n";
+    std::cout << "Your Green Vision is at level : " << GreenVision() << "\n";
 
     std::cin.get();
     return 0;
