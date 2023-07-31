@@ -14,8 +14,11 @@ int main()
     Drive();
     RipAndTear();
 
+    float level = GreenVision();
+
     std::cout << "5 x 6 = " << multiply(5, 6) << "\n";
-    std::cout << "Your Green Vision is at level : " << GreenVision() << "\n";
+    std::cout << "Your Green Vision is at level : " << level << "\n";
+    std::cout << "Your Green Level is " << (isGreenVisible(level) ? "Visible" : "Invisible") << std::endl;
 
     std::cin.get();
     return 0;

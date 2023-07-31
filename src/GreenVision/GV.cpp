@@ -8,3 +8,8 @@ float GreenVision()
 
     return (float)(rand() % 100) / 100;
 }
+
+bool isGreenVisible(float GreenVisionLevel)
+{
+    return (GreenVisionLevel < 0.2) ? false : true;
+}
